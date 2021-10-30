@@ -62,8 +62,6 @@ func (short_url *ShortUrl) CreateShortUrl() *errors.RestErr {
 			}
 			short_url.CreateShortUrl()
 		}
-		return nil
-		//return errors.NewInternalServerError("Ошибка при работе с БД")
 	}
 	return nil
 }
